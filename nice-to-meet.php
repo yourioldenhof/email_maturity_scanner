@@ -21,6 +21,11 @@
                             <p class="text">Voordat we beginnen stellen we eerst wat algemene vragen</p>
                             
                             <div class="inputfields">
+                                <div class="values">
+                                    <input type="checkbox" name="opt-in" value="{{campaign_option|htmlentities campaignid='3781' field='F29'}}" class="hidden" checked>
+                                    <input type="email" name="email" id="email" value="{{customer|htmlentities field='emailaddress'}}" class="hidden">
+                                </div>
+                                
                                 <a href="/question1.php" class="btn">Brand los!</a>
                                 <a href="javascript:history.back()" class="btn-cancel">Terug</a>
                            

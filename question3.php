@@ -136,13 +136,24 @@
                                     <input name='answerq3' type='radio' field='environment' required='true' value='1' class="inputanders">
                                     <input class='form-control answer-anders' minlength="5" name='answerq3anders' type='text' field='environment' placeholder='Anders, namelijk...'>
                                 </div>
+
+                                <div class="values">
+                                    <input type="text" name="firstname" id="firstname" value="naam">
+                                    <input type="email" name="email" field='customer.emailaddress' id="email" value="test@test.nl">
+                                    <input id='emailscore' type="text" name="levelemailscore" value="">   
+                                </div>
                                 
                                 <!-- If a tool as Deployteq is used, use this input submit field to submit the form and redirect to the next page on submit. -->
                                 <!-- <input name='submitq1' type='submit' value='Verder' class="btn submit"> -->
 
                                 <!-- Else, when a local server is used, use an <a></a>. Values won't work correctly. -->
-                                <a class="btn submit" href="/results.php">Verder</a>
+                                <a class="btn submit" href="/results_v2.php">Verder</a>
                             </form>
+
+                            <div class="values">
+                                <input id="sub-result" type="text" value="15">
+                                <input id="total" type="text" value="">
+                            </div>
 
                             <form name='weetikniet'>
                                 <!-- If a tool as Deployteq is used, use this input submit field to submit the form and redirect to the next page on submit. -->
