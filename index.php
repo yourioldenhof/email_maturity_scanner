@@ -1,17 +1,5 @@
 <?php include 'header.php'; ?>
 
-<div class="underconstruction">
-    <div class="container">
-        <div class="construction-container">
-            <div class="row">
-                <div class="col-12">
-                    <h1>This site is currently under construction</h1>
-                    Try again later
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container landing">
         <div class="row">
             <div class="col-12 col-md-8">
@@ -43,6 +31,5 @@
     <div class="beeldmerk-landing">
         <img src="https://cdn.msdp1.com/public/files/1513/1/happyhorizon/maturity_campaign/img/beeldmerk.png" alt="">
     </div>
-</div>
-    
+
 <?php include 'footer.php'; ?>
